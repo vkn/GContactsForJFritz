@@ -67,7 +67,7 @@ public class ContactsWriter {
             // StreamResult result = new StreamResult(System.out);
             transformer.transform(source, result);
 
-            System.out.println("File saved!");
+            System.out.println("Saved! You can import jfritz.phonebook.xml from JFritz application");
 
         } catch (ParserConfigurationException | TransformerException pce) {
             LOG.log(Level.SEVERE, "an exception was thrown", pce);
